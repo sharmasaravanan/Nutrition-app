@@ -1,0 +1,25 @@
+<html>
+    <head>
+    <title>Food-app</title>
+    <style type="text/css">
+	.form-control{border: 2px solid #dadada;border-radius: 7px;}
+	.form-control:focus {outline: none;border-color: #9ecaed;box-shadow: 0 0 10px #9ecaed;}
+       </style>
+	</head>
+    <body>
+	     <center><h1 style="color: #232325;font-size:25px;margin-top: 200px;margin-left: 115px;">Login to Admin page... </h1>
+	</header>
+	<form role="form" action="" method="POST">
+           <div>
+                <label for="username"><strong>Username:</strong></label>
+                <input class="form-control" name="username" placeholder="Username" required style="margin-top:50px;width:300px;height:40px;background-color: #FFFFFF;"><br>
+	 <label for="password" style="margin-left: 6px;"><strong>Password:</strong></label>
+		<input type="password" class="form-control" name="password" placeholder="Password" required style="margin-top:30px;width:300px;height:40px;background-color: #FFFFFF;">
+           </div>
+           <button type="submit" name="submit" class="btn btn-default" value="Form sent!" style="margin: 28px 0 0 0;">Submit</button><br><br>
+		{{ error }}
+        </form>
+        </div>
+		</center>
+   </body>
+</html>
